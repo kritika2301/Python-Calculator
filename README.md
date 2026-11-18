@@ -1,7 +1,11 @@
 
 # 🧮 Python Calculator
 
-A minimalist desktop calculator built using **Python and Tkinter**, featuring a modern dark theme and interactive buttons.
+A minimalist desktop calculator built using **Python and Tkinter**, featuring a modern dark theme, interactive buttons, and keyboard support.
+
+## 📸 Application Preview
+
+![Python Calculator](calculator-preview.png)
 
 ## ✨ Features
 
@@ -9,24 +13,27 @@ A minimalist desktop calculator built using **Python and Tkinter**, featuring a 
 - Percentage calculations
 - Square and square root operations
 - Clear and delete functionality
+- Decimal number support
 - Keyboard input support
 - Interactive button hover effects
-- Error handling for invalid calculations and division by zero
+- Error handling for invalid calculations
+- Division-by-zero error handling
 - Minimalist dark user interface
 
 ## 🛠️ Technologies Used
 
-- Python 3.12
-- Tkinter — GUI development
-- Math — Mathematical operations
+- **Python 3.12** – Core programming language
+- **Tkinter** – Graphical user interface
+- **Math module** – Mathematical operations
 
-## 📸 Application Preview
+## 🚀 Getting Started
 
-<!-- Add your calculator screenshot here -->
+### Prerequisites
 
-## 🚀 How to Run
+- Python 3.12 or later
+- Tkinter (usually included with Python)
 
-**Prerequisites:** Python 3.12 or later.
+### Installation
 
 1. Clone this repository:
 
@@ -34,17 +41,27 @@ A minimalist desktop calculator built using **Python and Tkinter**, featuring a 
    git clone https://github.com/kritika2301/Python-Calculator.git
    ```
 
-2. Navigate to the project folder:
+2. Navigate to the project directory:
 
    ```bash
    cd Python-Calculator
    ```
 
-3. Run the calculator:
+3. Run the application:
 
    ```bash
    python calculator.py
    ```
+
+## ⌨️ Keyboard Shortcuts
+
+| Key | Function |
+|---|---|
+| 0–9 | Enter numbers |
+| + - * / | Arithmetic operations |
+| Enter | Calculate result |
+| Backspace | Delete last character |
+| Escape | Clear display |
 
 ## 📁 Project Structure
 
@@ -52,6 +69,7 @@ A minimalist desktop calculator built using **Python and Tkinter**, featuring a 
 Python-Calculator/
 │
 ├── calculator.py
+├── calculator-preview.png
 └── README.md
 ```
 
@@ -60,3 +78,7 @@ Python-Calculator/
 **Kritika Manchekar**
 
 GitHub: [@kritika2301](https://github.com/kritika2301)
+
+---
+
+⭐ If you find this project useful, consider giving it a star!
